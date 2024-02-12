@@ -10,6 +10,11 @@
   font-family: "Amadeus";
   src: url(src/fonts/ofont.ru_AmadeusAP.ttf);
 }
+
+@font-face {
+  font-family: "Czich";
+  src: url(src/fonts/Czizh\ Body.ttf);
+}
 .valentine-card {
   width: 240px; /* Set your desired width */
   background-color: #e31756;
@@ -46,12 +51,12 @@ p {
 }
 h3 {
   margin: 0;
-  font-family: "Antarctic";
+  font-family: "Czich";
   font-weight: 500;
-  font-size: 44px;
+  font-size: 36px;
 }
 .text-to-from {
-  font-family: "Antarctic";
+  font-family: "Czich";
 }
 body {
   margin: 0;
