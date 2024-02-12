@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Antarctic";
-  src: url(/src/fonts/Antarctic.otf);
+  src: url(src/fonts/Antarctic.otf);
 }
 @font-face {
   font-family: "Qundeasy";
-  src: url(/src/fonts/Qundeasy-Only-For-Personal-Use.ttf);
+  src: url(src/fonts/Qundeasy-Only-For-Personal-Use.ttf);
 }
 @font-face {
   font-family: "Amadeus";
-  src: url(/src/fonts/ofont.ru_AmadeusAP.ttf);
+  src: url(src/fonts/ofont.ru_AmadeusAP.ttf);
 }
 .valentine-card {
   width: 240px; /* Set your desired width */
