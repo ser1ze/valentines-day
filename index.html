@@ -7,22 +7,48 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <nav></nav>
-    </header>
-    <aside></aside>
-    <aside></aside>
-    <aside></aside>
-    <main>
-      <div class="valentine-card">
-        <header class="card-header-from">
-          <h3><p></p></h3>
-          <h3><p></p></h3>
-        </header>
-        <div class="content-text-container">
-          <p></p>
-        </div>
+    <aside class="modal-container">
+      <nav class="modal-nav">
+        <button class="modal-nav__btn">
+          <img src="/src/img/icons8-close.svg" alt="" />
+        </button>
+      </nav>
+      <div class="modal-content">
+        <p class="modal-content__text">
+          Поздравляю! Вы успешно приглашены на свидание в гончарную мастерскую :
+          ) Время: <span class="highlight">17:00</span> <br />Место проведения:
+          <span class="highlight"><br />Ул. Покровка 10 стр. 2</span>
+        </p>
       </div>
-    </main>
+    </aside>
+    <div class="valentine-card">
+      <header class="card-header-from">
+        <h3>
+          Кому:
+          <span class="text-to-from">Лизе</span>
+        </h3>
+        <h3>От: <span class="text-to-from">Максима</span></h3>
+      </header>
+      <div class="content-text-container">
+        <p>
+          Дорогая Лиза, не устану говорить тебе спасибо за то, что ты появилась
+          в моей жизни. День влюбленных хороший повод НЕ лишний раз сказать, как
+          я дорожу тобой. Помни, heaven is a place on Earth with you.
+        </p>
+        <img src="/src/img/—Pngtree—white hearts on lines_8975674.png" alt="" />
+      </div>
+
+      <div class="love">
+        <button type="button" id="button" class="buttons">
+          Принять приглашение
+        </button>
+        <div id="heart1" class="hearts"></div>
+        <div id="heart2" class="hearts"></div>
+        <div id="heart3" class="hearts"></div>
+        <div id="heart4" class="hearts"></div>
+        <div id="heart5" class="hearts"></div>
+      </div>
+    </div>
+    <script src="/script.js"></script>
   </body>
 </html>
